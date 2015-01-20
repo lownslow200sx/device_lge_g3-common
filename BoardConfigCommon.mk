@@ -85,6 +85,9 @@ OVERRIDE_RS_DRIVER:= libRSDriver_adreno.so
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
+# Enable workaround for slow rom flash
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
